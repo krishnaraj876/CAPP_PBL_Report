@@ -1,0 +1,19 @@
+Digital Library Search
+        |
+        v
+Index / Hash Unit
+        |
+        v
+Address Calculation
+        |
+        v
+Registers <--> Bus Unit <--> ALU
+        |
+        v
+MAR / MDR
+        |
+        v
+Main Memory
+        |
+        v
+Record Retrieval and Verification
