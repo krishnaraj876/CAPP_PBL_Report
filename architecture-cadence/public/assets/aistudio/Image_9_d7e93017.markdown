@@ -1,0 +1,251 @@
+---
+name: Architecture Cadence
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#ccdbf3'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e6eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d5e3fc'
+  on-surface: '#0d1c2e'
+  on-surface-variant: '#43474e'
+  inverse-surface: '#233144'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#74777f'
+  outline-variant: '#c4c6cf'
+  surface-tint: '#485f82'
+  primary: '#00152f'
+  on-primary: '#ffffff'
+  primary-container: '#0f2a4a'
+  on-primary-container: '#7a92b7'
+  inverse-primary: '#b0c8f0'
+  secondary: '#006398'
+  on-secondary: '#ffffff'
+  secondary-container: '#5bb8fe'
+  on-secondary-container: '#00476e'
+  tertiary: '#00181e'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#002e37'
+  on-tertiary-container: '#009eb9'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d4e3ff'
+  primary-fixed-dim: '#b0c8f0'
+  on-primary-fixed: '#001c3a'
+  on-primary-fixed-variant: '#304869'
+  secondary-fixed: '#cce5ff'
+  secondary-fixed-dim: '#93ccff'
+  on-secondary-fixed: '#001d31'
+  on-secondary-fixed-variant: '#004b73'
+  tertiary-fixed: '#acedff'
+  tertiary-fixed-dim: '#4cd7f6'
+  on-tertiary-fixed: '#001f26'
+  on-tertiary-fixed-variant: '#004e5c'
+  background: '#f8f9ff'
+  on-background: '#0d1c2e'
+  surface-variant: '#d5e3fc'
+typography:
+  headline-xl:
+    fontFamily: IBM Plex Sans
+    fontSize: 3rem
+    fontWeight: '700'
+    lineHeight: 3.5rem
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: IBM Plex Sans
+    fontSize: 2rem
+    fontWeight: '700'
+    lineHeight: 2.5rem
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.75rem
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: IBM Plex Sans
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+  title-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 1.125rem
+    fontWeight: '500'
+    lineHeight: 1.5rem
+  title-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 1rem
+    fontWeight: '600'
+    lineHeight: 1.375rem
+  body-lg:
+    fontFamily: Public Sans
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.75rem
+  body-md:
+    fontFamily: Public Sans
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+  body-sm:
+    fontFamily: Public Sans
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+  label-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 0.6875rem
+    fontWeight: '700'
+    lineHeight: 0.875rem
+    letterSpacing: 0.06em
+  code-data:
+    fontFamily: Public Sans
+    fontSize: 0.8125rem
+    fontWeight: '500'
+    lineHeight: 1.125rem
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system establishes an authoritative, high-clarity instructional environment for advanced computer science and engineering coursework. It combines the rigorous sobriety of institutional engineering with the razor-sharp feedback required for real-time CPU simulation, pipeline trace inspections, and register-level verification.
+
+The visual style blends **Corporate / Modern** precision with **Technical Structuralism**:
+- High-contrast planar surfaces prioritize pure legibility over decorative excess.
+- Strict data hierarchies support dense, multi-tiered views (such as microarchitectural state tables, cache-hit telemetry, and hazard matrices).
+- Subtle technical cyan accents highlight active clock cycles, bus transactions, and branch decisions without overwhelming the dominant institutional navy foundation.
+- The interface delivers an immediate sense of academic authority, deterministic clarity, and operational confidence suitable for high-stakes laboratory coursework and engineering presentations.
+
+## Colors
+
+The palette grounds the interface in deep institutional navy while employing high-chroma technical cyans for circuit state, data movement, and pipeline transitions.
+
+- **Primary (`#0F2A4A`)**: Deep Institutional Navy. Dictates top-level navigation, structural framing, primary interactive commands, and definitive header typography.
+- **Secondary (`#0284C7`)**: Signal Blue. Governs active tab selections, focus rings, validated clock pulses, and secondary telemetry controls.
+- **Tertiary (`#06B6D4`)**: Technical Cyan. Reserved strictly for real-time trace indicators, pipeline stage milestones (IF, ID, EX, MEM, WB), cache line hits, and active bitmask overlays.
+- **Neutral (`#475569`)**: Engineering Slate. Anchors structural borders, inactive bus lines, secondary metrics, and muted hardware register labels.
+- **Surfaces**: Pure crisp white (`#FFFFFF`) forms the foundational canvas, accented by high-order laboratory neutral tiers (`#F8FAFC` and `#F1F5F9`) for nested microarchitectural modules and data tables.
+- **Semantic Signals**: Functional success (`#059669`), warning/stall (`#D97706`), and hazard/flush (`#DC2626`) maintain minimum 4.5:1 contrast against all light surface tiers.
+
+## Typography
+
+The typographic hierarchy couples **IBM Plex Sans** for architectural titles, hardware stage labels, and state registers with **Public Sans** for continuous analytical commentary, documentation, and data telemetry.
+
+- **IBM Plex Sans** injects mechanical balance, crisp terminals, and distinct glyph differentiation essential for engineering nomenclature (e.g., distinguishing `0`, `O`, `1`, `l`, and `I`).
+- **Public Sans** ensures extreme legibility across structured tables, data cells, instruction decoding panes, and analytical notes.
+- Hardware values, address offsets, and register fields must always be styled with `label-md` or `label-sm` using tabular numerics (`tnum`) and strict uppercase transformation where hexadecimal notation (`0x00` through `0xFF`) is displayed.
+- Sub-pixel anti-aliasing is mandated across all variants to maintain absolute edge fidelity on multi-pane projection screens and laboratory monitors.
+
+## Layout & Spacing
+
+The layout model is anchored by an engineering-grade, structured **12-column fluid grid** configured for high-density academic and hardware laboratory workflows.
+
+- **Breakpoints**:
+  - `Desktop (>= 1280px)`: 12 columns, 1.5rem gutters, 2rem canvas margins. Accommodates triple-split views (Instruction Trace, Pipeline Architecture Diagram, Register Bank).
+  - `Tablet (768px - 1279px)`: 8 columns, 1rem gutters, 1.5rem margins. Reflows registers and cache sets below the primary pipeline canvas.
+  - `Mobile (< 768px)`: 4 columns, 0.75rem gutters, 1rem margins. Stacks control blocks sequentially; hardware data grids switch to horizontal hardware-scrolling panels.
+- **Rhythm Rules**:
+  - Compact register banks use `space-xs` and `space-sm` internal padding to maximize simultaneous visibility of the architectural state.
+  - High-level laboratory modules and timing sequence panels rely on `space-md` internally and `space-lg` to separate discrete functional blocks.
+
+## Elevation & Depth
+
+This design system rejects heavy decorative drop shadows in favor of **structural planar layering** and **low-contrast technical outlines**. This maintains visual order under dense data conditions:
+
+- **Base Layer (Elevation 0)**: `#FFFFFF` and `#F8FAFC`. The foundational backdrop for stage canvases and documentation viewports.
+- **Structural Container (Elevation 1)**: Flat `#FFFFFF` surface enclosed by a clean 1px border of `#E2E8F0`. Layer separation is achieved through sharp tonal contrast rather than blur.
+- **Interactive Hover & Transient Focus (Elevation 2)**: Subtle elevation reserved for active memory block inspectors and dragging pipeline registers. Rendered with a crisp 1px border in `#CBD5E1` combined with an ambient, technical shadow: `0 4px 6px -1px rgba(15, 42, 74, 0.06), 0 2px 4px -2px rgba(15, 42, 74, 0.04)`.
+- **System Overlays & Breakpoint Modals (Elevation 3)**: High-priority diagnostics utilize an ambient lift: `0 10px 15px -3px rgba(15, 42, 74, 0.10), 0 4px 6px -4px rgba(15, 42, 74, 0.05)`, bounded by an explicit 1px `#0F2A4A` technical header bar.
+- **Active Bus/Circuit Depth**: Signified by a 2px `#06B6D4` inset or border ring rather than vertical displacement, preserving structural alignment.
+
+## Shapes
+
+The design system enforces a **Soft (`1`)** shape language, applying crisp `0.25rem` (4px) corner radii to common UI components, `0.5rem` (8px) to larger layout cards, and `0.75rem` (12px) to structural modal shells.
+
+- Precision instrumentation requires angular clarity; soft 4px corners soften harsh boundaries without sacrificing the strict geometric feel of hardware schematic interfaces.
+- Register cells, hex chips, bus lines, and clock step triggers must use the default `0.25rem` radius to preserve dense matrix alignment.
+- State badges and pipeline stage indicators maintain the same `0.25rem` corner radius, avoiding pill shapes to maintain technical consistency.
+
+## Components
+
+### Buttons
+- **Primary Execution Button**: Solid `#0F2A4A` fill, `#FFFFFF` text (`label-lg`), 4px radius, padded with `0.5rem` vertical and `1rem` horizontal. Active states transition to `#0284C7`. Focus states show a 2px offset outline of `#06B6D4`.
+- **Step / Clock Control**: Outlined button with 1px `#0F2A4A` border, transparent fill, `#0F2A4A` text. Hover applies `#F1F5F9`.
+- **Hazard Override / Emergency Clear**: Crisp 1px `#DC2626` outline, white background, `#DC2626` text; on hover shifts to solid `#DC2626` with `#FFFFFF` text.
+
+### Hardware Register Views & Data Cells
+- Register displays arrange `R0` through `R31` in an 8x4 or 4x8 matrix.
+- Each cell contains a label in `label-sm` (`#64748B`) and a 64-bit/32-bit hex value in `code-data` (`#0F2A4A`).
+- Value updates flash `#06B6D4` background tint with a 300ms transition back to `#FFFFFF` upon step completion.
+
+### Pipeline Grids
+- Pipeline stages (`IF`, `ID`, `EX`, `MEM`, `WB`) are rendered as connected structural cards.
+- Normal execution state: 1px `#E2E8F0` border, `#FFFFFF` background.
+- Active clock execution: 1px `#06B6D4` border, top accent border of 3px `#06B6D4`, `#F8FAFC` background.
+- Stall/Bubble state: 1px dashed `#D97706` border with `#FFFBEB` background tint.
+
+### Cache Mapping Visualizations
+- Direct-mapped and set-associative displays structure blocks into Tag, Index, and Offset partitions.
+- Cache Hit: Solid `#ECFDF5` background with 1px `#059669` border.
+- Cache Miss/Eviction: Solid `#FEF2F2` background with 1px `#DC2626` border.
+
+### Input Fields & Assembly Parsers
+- Background `#FFFFFF`, 1px solid border `#CBD5E1`, 4px radius.
+- Focus ring: 2px solid `#0284C7` with no offset.
+- Hex/Binary validation icons are pinned to the right edge within the field padding.
+
+### Chips & Stage Status Badges
+- 4px radius, padding `0.125rem` vertical, `0.5rem` horizontal.
+- Typography: `label-sm` uppercase.
+- Neutral variant: `#F1F5F9` background with `#475569` text.
+- Active Clock variant: `#E0F2FE` background with `#0284C7` text.
+- Forwarding Path variant: `#CFFAFE` background with `#0891B2` text.
+
+### Interactive Engineering Cards
+- Structural white canvas (`#FFFFFF`) with 1px border (`#E2E8F0`) and 8px (`rounded-lg`) radius.
+- Header bars feature an integrated 1px bottom border (`#E2E8F0`) with uppercase `label-md` headings and right-aligned cycle counters.

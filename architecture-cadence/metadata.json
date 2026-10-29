@@ -1,0 +1,6 @@
+{
+  "name": "Architecture Cadence",
+  "description": "High-clarity microarchitecture and CPU pipeline simulation workbench for computer science coursework and engineering verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
